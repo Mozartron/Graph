@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      body {
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+      }
+      form #controls {
+        position: absolute; 
+        top:    2px; 
+        left:   2px;
+      }
+      
+      #inputbox {
+        width:390;
+      }
+    </style>
+  </head>
+  <body>
+     <textarea rows="5" cols="25" id="function-code">var F = function(x) {
+  return Math.sin(x) ;
+  } ;
+</textarea>
+<input type="button" onclick="Draw();" value="Plot">
+    <canvas id='canvas' width="500" height="500" />
+        <script src="graph1.js"></script>
+  </body>
+</html>    
+    
